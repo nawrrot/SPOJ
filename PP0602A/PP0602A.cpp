@@ -1,6 +1,4 @@
 #include <iostream>
-#include <string>
-#include <algorithm>
 
 using namespace std;
 
@@ -15,8 +13,6 @@ int main()
         for(int i=0; i<howm; i++)
         {
             cin >> arr[i];
-
-
         }
 
         for(int i=1; i<howm; i+=2)
@@ -31,3 +27,5 @@ int main()
         }
         cout << endl;
     }
+return 0;
+}
